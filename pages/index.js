@@ -30,7 +30,7 @@ export default function Home() {
   <input
     type="hidden"
     name="_redirect"
-    value="https://yourwebsite.com/thank-you"
+    value="https://bragagency.netlify.app/thank-you"
   />
 
   <button
