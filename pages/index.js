@@ -42,16 +42,33 @@ export default function Home() {
 </form>
 
 
-      <div className="absolute bottom-6 flex gap-6 text-gray-500">
-  <a
-    href="http://instagram.com/brag.agency"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:text-blue-700 transition text-2xl"
-  >
-    📸
-  </a>
-</div>
+    import { FaInstagram } from 'react-icons/fa';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gradient-to-r from-[#eef1ff] to-[#e3ecf8] flex flex-col items-center justify-center text-center relative overflow-hidden">
+      {/* ...other code... */}
+
+      <form>
+        {/* form code */}
+      </form>
+
+      <div className="absolute bottom-6 flex gap-6 text-gray-500 text-2xl">
+        <a
+          href="http://instagram.com/brag.agency"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-700 transition"
+        >
+          <FaInstagram />
+        </a>
+      </div>
+
+      {/* ...decorative emojis... */}
+    </div>
+  );
+}
+
 
 
       <div className="absolute top-10 left-10 text-3xl animate-bounce">🍝</div>
