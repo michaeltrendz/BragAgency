@@ -12,8 +12,7 @@ export default function Home() {
 
       <h1 className="text-3xl md:text-4xl font-bold text-blue-700 mb-2">Cooking Our Website.</h1>
       <p className="text-gray-500 mb-6">
-        We are going to launch our website very soon. <br />
-        Stay tuned.
+        We're launching soon. <br /> Book a quick call with us.
       </p>
 
       <form
@@ -22,17 +21,39 @@ export default function Home() {
         className="flex flex-col items-center gap-3 w-full max-w-sm"
       >
         <input
+          type="text"
+          name="name"
+          required
+          placeholder="Your Name"
+          className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none w-full"
+        />
+
+        <input
           type="email"
           name="email"
           required
-          placeholder="Enter your email"
+          placeholder="Your Email"
+          className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none w-full"
+        />
+
+        <input
+          type="date"
+          name="date"
+          required
+          className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none w-full"
+        />
+
+        <input
+          type="time"
+          name="time"
+          required
           className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none w-full"
         />
 
         <textarea
           name="message"
           rows="4"
-          placeholder="Leave a message or question"
+          placeholder="What would you like to discuss?"
           className="px-4 py-2 rounded-xl border border-gray-300 focus:outline-none w-full resize-none"
         ></textarea>
 
@@ -46,7 +67,7 @@ export default function Home() {
           type="submit"
           className="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition w-full"
         >
-          Notify Me
+          Schedule Appointment
         </button>
       </form>
 
