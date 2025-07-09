@@ -3,7 +3,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-r from-[#eef1ff] to-[#e3ecf8] flex flex-col items-center justify-center text-center relative overflow-hidden">
 
       <div className="absolute top-4 bg-white rounded-full px-6 py-2 shadow-md">
-        <span className="text-blue-700 font-semibold text-lg">DesignKnot</span>
+        <span className="text-blue-700 font-semibold text-lg">Brag.Agency</span>
       </div>
 
       <div className="text-3xl mt-16 mb-4">👨‍🍳👍</div>
@@ -15,26 +15,32 @@ export default function Home() {
       </p>
       
 <form
-  action="https://formsubmit.io/send/daremichael@gmail.com"
+  action="https://submit-form.com/kZdPjDyDi"
   method="POST"
   className="flex flex-col items-center gap-2 w-full max-w-sm"
 >
-  <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you" />
+  <input
+    type="email"
+    name="email"
+    required
+    placeholder="Enter your email"
+    className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none w-full"
+  />
 
-        <input
-          type="email"
-          name="email"
-          required
-          placeholder="Enter Email Here"
-          className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none"
-        />
-        <button
-          type="submit"
-          className="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition"
-        >
-          Notify Me
-        </button>
-      </form>
+  <input
+    type="hidden"
+    name="_redirect"
+    value="https://yourwebsite.com/thank-you"
+  />
+
+  <button
+    type="submit"
+    className="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition w-full"
+  >
+    Notify Me
+  </button>
+</form>
+
 
       <div className="absolute bottom-6 flex gap-6 text-gray-500">
         <a href="#" className="hover:text-blue-700 transition">🌐</a>
