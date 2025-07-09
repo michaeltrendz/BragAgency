@@ -9,7 +9,7 @@ export default function ThankYou() {
       <div className="absolute top-4 left-4">
         <Link href="/">
           <img
-            src="/brag.png"
+            src="/brag2.png"
             alt="Brag.Agency Logo"
             className="h-10 w-auto cursor-pointer"
           />
