@@ -5,8 +5,8 @@ export default function ThankYou() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-center bg-white px-4 relative">
 
-      {/* Centered Logo */}
-      <div className="mt-10 mb-6">
+      {/* Centered Logo - moved up slightly */}
+      <div className="mt-4 mb-4">
         <Link href="/">
           <img
             src="/brag2.png"

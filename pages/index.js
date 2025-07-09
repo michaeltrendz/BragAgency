@@ -58,7 +58,7 @@ export default function Home() {
           type="submit"
           className="bg-[#14ff00] text-black px-6 py-2 rounded-full hover:bg-white hover:text-black transition w-full font-semibold"
         >
-          Schedule Appointment
+          Send Message
         </button>
       </form>
 
