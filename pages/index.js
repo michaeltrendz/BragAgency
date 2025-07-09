@@ -25,7 +25,7 @@ export default function Home() {
           type="email"
           name="email"
           required
-          placeholder="daremichael07@gmail.com"
+          placeholder="Enter Email Here"
           className="px-4 py-2 rounded-full border border-gray-300 focus:outline-none"
         />
         <button
