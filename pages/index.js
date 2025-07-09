@@ -4,16 +4,17 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white flex flex-col items-center justify-center text-center relative overflow-hidden px-4">
 
-      <div className="absolute top-4 bg-[#1a1a1a] ">
-  <img
-    src="/brag.png"
-    alt=""
-    className="h-8 w-auto"
-  />
-</div>
+      {/* Logo - Removed extra padding and tightened spacing */}
+      <div className="mt-4 mb-2">
+        <img
+          src="/brag.png"
+          alt="Brag Logo"
+          className="h-8 w-auto"
+        />
+      </div>
 
-
-      <div className="text-3xl mt-16 mb-4">👨‍🍳👍</div>
+      {/* Reduced top margin here */}
+      <div className="text-3xl mt-4 mb-4">👨‍🍳👍</div>
 
       <h1 className="text-3xl md:text-4xl font-bold text-[#14ff00] mb-2">Cooking Our Website.</h1>
       <p className="text-gray-300 mb-6">
