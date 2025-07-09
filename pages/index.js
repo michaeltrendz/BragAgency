@@ -43,10 +43,16 @@ export default function Home() {
 
 
       <div className="absolute bottom-6 flex gap-6 text-gray-500">
-        <a href="#" className="hover:text-blue-700 transition">🌐</a>
-        <a href="#" className="hover:text-blue-700 transition">🔔</a>
-        <a href="#" className="hover:text-blue-700 transition">💼</a>
-      </div>
+  <a
+    href="http://instagram.com/brag.agency"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-blue-700 transition text-2xl"
+  >
+    📸
+  </a>
+</div>
+
 
       <div className="absolute top-10 left-10 text-3xl animate-bounce">🍝</div>
       <div className="absolute top-20 right-10 text-2xl animate-pulse">🍜</div>
